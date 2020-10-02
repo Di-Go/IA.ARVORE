@@ -1,0 +1,4 @@
+
+public class Arvore {
+	public NoArvore Raiz = new NoArvore();
+}

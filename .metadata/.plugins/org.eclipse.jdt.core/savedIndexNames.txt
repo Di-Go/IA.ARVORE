@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\XFaculdade\IA\.metadata\.plugins\org.eclipse.jdt.core
+1574843208.index
+4070007177.index

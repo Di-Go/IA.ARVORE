@@ -1,0 +1,12 @@
+
+public class No {
+	public int Valor;
+	public No Esquerda;
+	public No Direita;
+	
+	private No(int valor) {
+		this.Valor = valor;
+		this.Esquerda = null;
+		this.Direita = null;
+	}
+}

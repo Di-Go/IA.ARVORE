@@ -1,0 +1,6 @@
+
+public class NoArvore {
+	public int value;
+	public NoArvore Esquerda;
+	public NoArvore Direita;
+}

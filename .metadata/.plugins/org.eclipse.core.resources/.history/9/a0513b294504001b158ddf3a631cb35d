@@ -1,0 +1,9 @@
+
+public class Arvore {
+	
+	public void InserirNo(NoArvore noAtual, int valor) {
+		if (noAtual = null) {
+			
+		}
+	}
+}
