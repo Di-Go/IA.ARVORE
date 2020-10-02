@@ -7,9 +7,13 @@ public class Arvore {
 	}
 	
 	private No Insira(No no, int valor) {
-		if (no == null) {
-			return new No(valor);
-		}
+		if (no != null) {
+			if (no.Valor < valor || no.Valor == valor) {
+				no.Esquerdo = Insira(no.Esquerdo, valor);
+			}else {
+				no.Direito = Insira(no.Direito, valor);
+			}
+		}		
 		return new No(valor);
 	}
 }
